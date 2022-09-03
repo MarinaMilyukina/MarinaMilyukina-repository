@@ -12,10 +12,11 @@ function SecondaryButton(props) {
     color: #64748b;
     &:hover {
       background: solid #ffffff;
+      border: 1px solid #3B82F6;
       color: #64748b;
     }
     &:active {
-      background: #ffffff;
+      background: #3B82F6;
       color: #64748b;
     }
   `;
